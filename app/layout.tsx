@@ -1,5 +1,9 @@
+import Image from 'next/image'
+
 // These styles apply to every route in the application
 import './globals.css'
+
+import logo from './logo.png'
 
 export default function RootLayout({
   children,
@@ -8,7 +12,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="flex justify-center my-3">
+          <Image
+              src={logo}
+              alt="Band of Blades"
+          />
+        </div>
+      {children}</body>
     </html>
   );
 }

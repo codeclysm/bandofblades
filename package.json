@@ -6,9 +6,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "classnames": "^2.5.1",
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.2",
+    "use-react-screenshot": "^4.0.0",
+    "usehooks-ts": "^2.12.1"
   },
   "devDependencies": {
     "@types/node": "20.10.8",
