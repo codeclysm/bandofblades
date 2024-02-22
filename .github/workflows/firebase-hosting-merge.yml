@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BANDOFBLADES_D38C6 }}'
           channelId: live
           projectId: bandofblades-d38c6
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
